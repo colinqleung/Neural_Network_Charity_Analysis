@@ -13,8 +13,11 @@ The EID and Name variables should be removed from the input data since they do n
 
 ## Compiling, Training, and Evaluating the Model
 ### How many neurons, layers, and activation functions did you select for your neural network model, and why?
-
+The input dimension of this data should be 44 which was determined by the length of the scaled features.
 ### Were you able to achieve the target model performance?
+The accuracy of my model reached 73 percent. 
 ### What steps did you take to try and increase model performance?
+I created two layers to increase model performance and that increased the accuracy by close to a percent.
 
 # Summary
+In conclusion, this model was 73 percent accurate in predicting which organizations will be successful. This is relatively high considering there are 34,000 total organizations. To generate a better model, more variables would be helpful. Since multiple variables were objects that were converted into boolean 1's and 0's, the data had no in betweens which added to the difficulty in creating an accurate model. 
